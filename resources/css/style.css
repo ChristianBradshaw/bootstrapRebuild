@@ -41,6 +41,12 @@
   color: #7952b3;
 }
 
+.btnOptionsPurple:hover{
+  border-color: #563D7C;
+  color: white;
+  background-color: #7952b3;
+}
+
 h1{
   color: #7952B3;
   line-height: 64px;
