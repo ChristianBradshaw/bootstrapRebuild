@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/9f40b6761f.js"></script>
     <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
   </head>
   <body>
 <!--   navbar-->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-  <a class="navbar-brand" href="#"><img src="/resources/img/bootstrapIcon.svg" alt=""></a>
+  <a class="navbar-brand" href="#"><img src="https://seeklogo.com/images/S/sagui-logo-70B0EDCF47-seeklogo.com.png" alt="" class="monkeyBrand"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,25 +27,25 @@
         <a class="nav-link" href="#">Examples</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Themes</a>
+        <a class="nav-link" href="#">Themes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Jobs</a>
+        <a class="nav-link" href="#">Jobs</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Expo</a>
+        <a class="nav-link" href="#">Expo</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Blog</a>
+        <a class="nav-link" href="#">Blog</a>
       </li>
     </ul>
     <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
        <li class="nav-item"><a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">v4.0</a>
         </li>
-       <li class="nav-item"><i class="fa fa-github" aria-hidden="true"></i></li>
-       <li class="nav-item"><i class="fa fa-twitter" aria-hidden="true"></i></li>
-       <li class="nav-item"><i class="fa fa-slack" aria-hidden="true"></i></li>
-     <a class="btn btn-outline-warning d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3 text-warning" href="https://github.com/twbs/bootstrap/archive/v4.0.0-beta.zip">Download</a>
+       <li class="nav-item navIcons"><i class="fa fa-github mr-3" aria-hidden="true"></i></li>
+       <li class="nav-item navIcons"><i class="fa fa-twitter mr-3" aria-hidden="true"></i></li>
+       <li class="nav-item navIcons"><i class="fa fa-slack mr-3" aria-hidden="true"></i></li>
+     <a class="btn btn-outline-warning d-none d-lg-inline-block mainButton" href="https://github.com/twbs/bootstrap/archive/v4.0.0-beta.zip">Download</a>
     </ul>
     
   </div>
@@ -52,17 +53,16 @@
 <!--   /navbar-->
    
 <!--mainContent-->
-<section>
+<section class="mainSection">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h1>Bootstrap</h1>
+        <h1 class="mb-3 display-3">Bootstrap</h1>
         <p>Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
-        <br>
         <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
-        <button class="btn">Get started</button>
-        <button class="btn">Download</button>
-        <p>Currently in v4.0.0-beta</p>
+        <button class="btn btn-lg btn-outline-dark btnOptions btnOptionsPurple">Get started</button>
+        <button class="btn btn-outline-secondary btn-lg btnOptions">Download</button>
+        <p class="text-muted lowLight">Currently in v4.0.0-beta</p>
       </div>
       <div class="col-md-6">
          <img src="/resources/img/bootstrapLogo.png" alt="The logo of my favorite framework, Bootstrap!" height="55%">
