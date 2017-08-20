@@ -55,19 +55,21 @@ h1{
   height: 808px;
 }
 
+
 .mainSection p{
   font-size: 20px;
   line-height: 30px;
   font-weight: 300;
 }
 
-.features{
-  
-}
-
 hr{
   width: 20%;
   margin: 2.5rem 0;
+}
+
+.featureIcons{
+  font-size: 35px;
+  color: #007bff;
 }
 
 
